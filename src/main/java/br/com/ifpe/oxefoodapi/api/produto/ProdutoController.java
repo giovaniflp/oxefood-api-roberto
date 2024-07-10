@@ -26,4 +26,6 @@ public class ProdutoController {
         Produto produto = produtoService.save(request.build());
         return new ResponseEntity<Produto>(produto, HttpStatus.CREATED);
     }
+
+    //Adicionar PUT, GET e DELETE
 }
